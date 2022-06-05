@@ -24,7 +24,7 @@ mongo-express</h4>
             * For a given country name print a list of the last 14 days and the number of daily new cases in that
               country
             * Run the function with: `make country=<country_name> country_daily_new_cases`, when country_name is the
-              country name you would like to get the stat. for. **country_name - should be capitalized**
+              country name you would like to get the stat. for. **country_name - should be capitalized (e.g. Israel)**
         2. **total_cases_for_every_country**
             * For the 10 countries with the largest number of total cases, shows the total number of cases for each
               country since the epidemic started
@@ -36,8 +36,8 @@ mongo-express</h4>
 
               `new_cases_smoothed_per_million(country) * population_density(country) / MAX(population_density)`
 
-            * Run function with: `make country=Israel country_naive_possibility_to_covid`, when country_name is the
-              country name you would like to get the stat. for. **country_name - should be capitalized**
+            * Run function with: `make country=<country_name> country_naive_possibility_to_covid`, when country_name is the
+              country name you would like to get the stat. for. **country_name - should be capitalized (e.g. Israel)**
             * The bigger the measurement the bigger the chances, one can compare the (naive) risk between different
               countries.
               
