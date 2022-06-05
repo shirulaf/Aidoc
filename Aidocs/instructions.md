@@ -7,8 +7,8 @@ mongo-express</h4>
 2. Uploading the DB services
 
     1. Uploading the db service: make sure you have docker-compose installed, and run:
-        1. make db_up
-        3. Make sure the services are running with `Docker ps` (Expecting 'mongo', 'mongo-express')
+        1. `make db_up`
+        3. Make sure the services are running with `docker ps` (Expecting 'mongo', 'mongo-express')
 
     2. Preparing the DB
         * Run: `make prepare_data`
