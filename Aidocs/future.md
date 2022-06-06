@@ -8,3 +8,4 @@ Some future tasks:
 - Add CICD
 - Design and improve the data storage, currently the records are dated from the beginning of the data collection, 
   while the stat. are currently going far as 14 days back only
+- Add tests 
